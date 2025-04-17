@@ -3,7 +3,7 @@ set -eou pipefail
 
 # Defaults
 TARGET="${GIT_TARGET:-/project/cst_repos/tutorial-notebooks}"
-SRC="${GIT_SRC:-git+https://github.com/lsst/tutorial-notebooks}"
+SRC="${GIT_SRC:-https://github.com/lsst/tutorial-notebooks}"
 BRANCH="${GIT_BRANCH:-main}"
 
 # If directory exists, pull the branch.
